@@ -1,0 +1,42 @@
+﻿@model Hotel.Data.Models.Restaurant
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Restaurant</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.RestaurantName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RestaurantName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RestaurantImage)
+        </dt>
+
+        <dd>
+            <img class="img img-circle" src="@Url.Content(@Model.RestaurantImage)" alt="Alternate Text" style="width:304px;height:228px;"/>
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RestaurantDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RestaurantDescription)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

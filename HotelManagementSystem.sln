@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotel.Data", "Hotel.Data\Hotel.Data.csproj", "{43D1B05C-8E32-490B-917D-573F85D1E07A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotel.Service", "Hotel.Service\Hotel.Service.csproj", "{F8E7A6FE-22D1-455E-A2FC-48927795656D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotel.Web", "Hotel.Web\Hotel.Web.csproj", "{D95570F8-AAA3-4C6C-BD1A-0BAD4F684939}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotel.Test", "Hotel.Test\Hotel.Test.csproj", "{2C36EAD6-FB38-4F7A-80CE-1E8BF6942BDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43D1B05C-8E32-490B-917D-573F85D1E07A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43D1B05C-8E32-490B-917D-573F85D1E07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43D1B05C-8E32-490B-917D-573F85D1E07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43D1B05C-8E32-490B-917D-573F85D1E07A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8E7A6FE-22D1-455E-A2FC-48927795656D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8E7A6FE-22D1-455E-A2FC-48927795656D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8E7A6FE-22D1-455E-A2FC-48927795656D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8E7A6FE-22D1-455E-A2FC-48927795656D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D95570F8-AAA3-4C6C-BD1A-0BAD4F684939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D95570F8-AAA3-4C6C-BD1A-0BAD4F684939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D95570F8-AAA3-4C6C-BD1A-0BAD4F684939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D95570F8-AAA3-4C6C-BD1A-0BAD4F684939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C36EAD6-FB38-4F7A-80CE-1E8BF6942BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C36EAD6-FB38-4F7A-80CE-1E8BF6942BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C36EAD6-FB38-4F7A-80CE-1E8BF6942BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C36EAD6-FB38-4F7A-80CE-1E8BF6942BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://sandeep-apsingekar.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Hotel.Data\\Hotel.Data.csproj
+		SccProjectName1 = Hotel.Data
+		SccLocalPath1 = Hotel.Data
+		SccProjectUniqueName2 = Hotel.Service\\Hotel.Service.csproj
+		SccProjectName2 = Hotel.Service
+		SccLocalPath2 = Hotel.Service
+		SccProjectUniqueName3 = Hotel.Web\\Hotel.Web.csproj
+		SccProjectName3 = Hotel.Web
+		SccLocalPath3 = Hotel.Web
+		SccProjectUniqueName4 = Hotel.Test\\Hotel.Test.csproj
+		SccProjectName4 = Hotel.Test
+		SccLocalPath4 = Hotel.Test
+	EndGlobalSection
+EndGlobal
