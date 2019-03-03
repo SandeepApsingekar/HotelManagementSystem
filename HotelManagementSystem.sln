@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotel.Web", "Hotel.Web\Hote
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotel.Test", "Hotel.Test\Hotel.Test.csproj", "{2C36EAD6-FB38-4F7A-80CE-1E8BF6942BDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADONet", "ADONet\ADONet.csproj", "{5AC69813-F8DF-401C-9AB1-AC7D56B8BEC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,26 +35,12 @@ Global
 		{2C36EAD6-FB38-4F7A-80CE-1E8BF6942BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C36EAD6-FB38-4F7A-80CE-1E8BF6942BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C36EAD6-FB38-4F7A-80CE-1E8BF6942BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AC69813-F8DF-401C-9AB1-AC7D56B8BEC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AC69813-F8DF-401C-9AB1-AC7D56B8BEC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AC69813-F8DF-401C-9AB1-AC7D56B8BEC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AC69813-F8DF-401C-9AB1-AC7D56B8BEC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 5
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://sandeep-apsingekar.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Hotel.Data\\Hotel.Data.csproj
-		SccProjectName1 = Hotel.Data
-		SccLocalPath1 = Hotel.Data
-		SccProjectUniqueName2 = Hotel.Service\\Hotel.Service.csproj
-		SccProjectName2 = Hotel.Service
-		SccLocalPath2 = Hotel.Service
-		SccProjectUniqueName3 = Hotel.Web\\Hotel.Web.csproj
-		SccProjectName3 = Hotel.Web
-		SccLocalPath3 = Hotel.Web
-		SccProjectUniqueName4 = Hotel.Test\\Hotel.Test.csproj
-		SccProjectName4 = Hotel.Test
-		SccLocalPath4 = Hotel.Test
 	EndGlobalSection
 EndGlobal

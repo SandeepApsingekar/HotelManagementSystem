@@ -11,7 +11,7 @@ using Hotel.Data.Models;
 
 namespace Hotel.Web.Controllers
 {
-    [Authorize]
+    ///[Authorize]
     public class MenusController : Controller
     {
         private HotelContext db = new HotelContext();

@@ -27,7 +27,7 @@ namespace Hotel.Web
             if (authCookie != null)
             {
                 FormsAuthenticationTicket authTicket = FormsAuthentication.Decrypt(authCookie.Value);
-
+                //authCookie.Expires = Convert.ToDateTime(TimeSpan.FromMinutes(1));
                 if (authTicket != null)
                 {
                     HotelPrincipalSerializeModel serializeModel =

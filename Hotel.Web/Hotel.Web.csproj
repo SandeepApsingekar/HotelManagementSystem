@@ -149,7 +149,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Photos\angry tiger.jpg" />
     <Content Include="Photos\IMAG2732_2.jpg" />
+    <Content Include="Photos\tiger.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -181,6 +183,7 @@
     <Compile Include="Controllers\MenusController.cs" />
     <Compile Include="Controllers\RestaurantsController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
+    <Compile Include="Functions\LabelClass.cs" />
     <Compile Include="Functions\Logger.cs" />
     <Compile Include="Functions\SendEmail.cs" />
     <Compile Include="GlimpseSecurityPolicy.cs" />

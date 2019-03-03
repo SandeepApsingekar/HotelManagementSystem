@@ -73,10 +73,10 @@ namespace Hotel.Web.App_Start
             kernel.Bind<IRepository<Location>>().To<LocationRepository>();
             kernel.Bind<IRepository<Item>>().To<ItemRepository>();
             kernel.Bind<IRepository<Menu>>().To<MenuRepository>();
-
+            
 
             // Services
-     
+            
             kernel.Bind<IService<User>>().To<UserService>();
             kernel.Bind<IService<Restaurant>>().To<RestaurantService>();
             kernel.Bind<IService<Location>>().To<LocationService>();

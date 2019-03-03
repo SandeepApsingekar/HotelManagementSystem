@@ -1,4 +1,4 @@
-﻿
+﻿@using Hotel.Web.Functions
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -7,3 +7,13 @@
 <h2>Index</h2>
 <h3>Welcome! @ViewBag.fullName</h3>
 
+<p>I'm a custom html helper for Label</p> <br />
+
+@Html.LabelEx("FirstName", "FirstName:") <br />
+
+<p>I'm a custom html helper for Image using Bootstrap</p> <br />
+<div class="form-group">
+    @Html.ImgEx("~/Photos/angry tiger.jpg", "Sandeep", new { htmlAttributes = new { @class = "img-circle" } })
+
+    @Html.ImgEx("~/Photos/tiger.jpg", "Sandeep", "img-rounded")
+</div>

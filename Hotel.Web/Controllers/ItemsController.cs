@@ -12,7 +12,7 @@ using Hotel.Service;
 
 namespace Hotel.Web.Controllers
 {
-    [Authorize]
+    //[Authorize]
     public class ItemsController : Controller
     {
         private HotelContext db = new HotelContext();
@@ -91,6 +91,12 @@ namespace Hotel.Web.Controllers
         {
             if (ModelState.IsValid)
             {
+                context.Tasks
+    .Where(t => t.StatusId == 1)
+    .Update(t => new Task { StatusId = 2 });
+                db.Item.Where(t=>t.Id==101).
+                    .Update(t => new Task { StatusId = 2 });
+
                 db.Entry(item).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");

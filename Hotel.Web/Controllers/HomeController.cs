@@ -6,7 +6,6 @@ using System.Web.Mvc;
 
 namespace Hotel.Web.Controllers
 {
-    [Authorize]
     public class HomeController : BaseController
     {
         // GET: Hotel
@@ -22,6 +21,12 @@ namespace Hotel.Web.Controllers
             }
             return View();
 
+        }
+
+
+        public ActionResult PartialVieWEx()
+        {
+            return View();
         }
     }
 }

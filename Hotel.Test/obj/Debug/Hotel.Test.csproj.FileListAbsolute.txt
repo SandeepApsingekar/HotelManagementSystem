@@ -1,0 +1,6 @@
+C:\Users\Sandeep\Documents\Visual Studio 2015\Projects\MVC Projects\HotelManagementSystem\Hotel.Test\bin\Debug\Hotel.Test.dll
+C:\Users\Sandeep\Documents\Visual Studio 2015\Projects\MVC Projects\HotelManagementSystem\Hotel.Test\bin\Debug\Hotel.Test.pdb
+C:\Users\Sandeep\Documents\Visual Studio 2015\Projects\MVC Projects\HotelManagementSystem\Hotel.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Sandeep\Documents\Visual Studio 2015\Projects\MVC Projects\HotelManagementSystem\Hotel.Test\obj\Debug\Hotel.Test.csprojResolveAssemblyReference.cache
+C:\Users\Sandeep\Documents\Visual Studio 2015\Projects\MVC Projects\HotelManagementSystem\Hotel.Test\obj\Debug\Hotel.Test.dll
+C:\Users\Sandeep\Documents\Visual Studio 2015\Projects\MVC Projects\HotelManagementSystem\Hotel.Test\obj\Debug\Hotel.Test.pdb
